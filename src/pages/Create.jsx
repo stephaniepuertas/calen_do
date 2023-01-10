@@ -40,7 +40,7 @@ const Create = () => {
       <form onSubmit={createTask}>
         <p>Task:
         {/* task textbox  */}
-        <input value= "What to do?" type="text" onChange={taskHandler} />
+        <input placeholder= "What to do?" type="text" onChange={taskHandler} />
 
         <input type="date" name="" id="" onChange={dateHandler}/>
 
